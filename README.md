@@ -51,6 +51,6 @@ This file format was chosen for compatibility with a DOS program (written in pre
 
 Note that Strings are stored in the old Turbo Pascal format in the binary representation: Each String is preceded by a single byte indicating the length of the String, ie. the 20 bytes indicating the name are preceded by a single byte of value between 0 and 20 indicating how long the name actually is.
 
-I don't remember what the Byte does which I called "One", but if it actually always has the value 1 then that might indicate that the original DOS program was storing the continent as a {{{String[1]}}} that always had length 1.
+I don't remember what the Byte does which I called "One", but if it actually always has the value 1 then that might indicate that the original DOS program was storing the continent as a ```{{{String[1]}}}``` that always had length 1.
 
 Previously hosted at code.google.com/p/klima
